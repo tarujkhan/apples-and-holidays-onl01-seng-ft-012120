@@ -65,7 +65,7 @@ def all_supplies_in_holidays(holiday_hash)
   holiday_hash.each do |season, holiday|
     season
     holiday.each do |holiday, supply|
-    holiday, supply
+    supply
   end
   # iterate through holiday_hash and print items such that your readout resembles:
   # Winter:
@@ -74,7 +74,7 @@ def all_supplies_in_holidays(holiday_hash)
   # Summer:
   #   Fourth Of July: Fireworks, BBQ
   # etc.
-puts holiday, supply
+puts supply
 end
 
 
