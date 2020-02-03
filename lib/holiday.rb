@@ -66,7 +66,21 @@ def all_supplies_in_holidays(holiday_hash)
     puts "#{season.capitalize}:"
     
     holiday.each do |holiday, supply|
-      holiday.split |holiday|
+      
+Shahzad Khan 
+
+2:58 PM (8 minutes ago)
+
+
+
+to me 
+
+
+
+
+
+
+puts"  #{holiday.to_s.split('_').map {|w| w.capitalize }.join(' ') }: #{supplies.join(", ")}"
       supply
       
     
