@@ -76,7 +76,7 @@ def all_supplies_in_holidays(holiday_hash)
   # etc.
 
 end
-puts supply
+
 
 
 def all_holidays_with_bbq(holiday_hash)
